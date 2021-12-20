@@ -10,7 +10,16 @@
 */
 
 function isPrime(n) {
-    // Напишите код здесь
+    if (n<2){
+        return false;
+    }
+    else if (n===2 || n===3){
+        return true
+    }
+    else if (n%2===0 || n%3===0){
+        return false
+    }
+    else{ return true}
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
