@@ -14,9 +14,30 @@
 */
 
 function palindrome(str) {
-    // Напишите код здесь
+
+let rts=str.split('').reverse().join('')
+if (str.toLowerCase()===rts.toLowerCase()){
+    return true;
+}
+else{
+    return false;
+}
 }
 
+/*
+    let a=0;
+   for (i=0; i<=str.length/2; i=i+1){
+       if (str[i]===str[str.length - i]){
+           console.log(i)
+           a=a+0;
+           console.log(a)
+       }
+       else{
+           a=a+1;
+       }
+   }
+  return a===0;
+  */
 // Протестируйте решение, вызывая функцию с разными аргументами:
 
 console.log(palindrome('топот')); // должно быть true

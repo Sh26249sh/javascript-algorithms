@@ -10,7 +10,16 @@
 */
 
 function findVowels(str) {
-    // Напишите код здесь
+    let mas=['а', 'я', 'о', 'ё', 'у', 'ю', 'ы', 'и', 'э', 'е'];
+    let a=0;
+
+    for (i=0;i<=(mas.length-1);i++){
+        if(str.toLowerCase().indexOf(mas[i]) >=0){
+           a= a+1;
+
+        }
+    }
+    return a;
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
