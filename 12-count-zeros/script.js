@@ -7,10 +7,25 @@
 */
 
 function countZeros(n) {
-    // Напишите код здесь
+let sum=0;
+   for (i=1;i<=n;i++){
+       str=String(i);
+        mas=str.split('')
+        let b=0;
+            for (a=0;a<=(mas.length-1);a++){
+                if(mas[a].includes(0)===true){
+                b=b+1;
+                }
+            }
+        sum=sum+b; 
+       
+   }
+   return sum
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
 
 console.log(countZeros(20)); // 2 – два нуля, по одному в числах 10 и 20
 console.log(countZeros(100)); // 11 – 11 нулей в числах: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100
+//str=100
+//mas=str.split('')
