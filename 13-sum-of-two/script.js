@@ -8,8 +8,8 @@
  * 
 */
 
-function sumOfTwo(arr, sum) {
-    // Напишите код здесь
+function sumOfTwo(arr, num) {
+    for (i=0;i)
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:

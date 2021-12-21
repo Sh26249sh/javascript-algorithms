@@ -7,8 +7,19 @@
 */
 
 function capitalize(str) {
-    // Напишите код здесь
-}
+    mas=str.split(' ')
+        for(i=0;i<=mas.length-1;i++){
+            word=mas[i].split('');
+             
+            word[0]=word[0].toUpperCase();
+            
+            mas[i]=word.join('');
+             
+        }
+         return result=mas.join(' ')
+      
+    }
+
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
 
