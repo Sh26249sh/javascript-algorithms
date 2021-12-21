@@ -9,8 +9,8 @@
 function countZeros(n) {
 let sum=0;
    for (i=1;i<=n;i++){
-       str=String(i);
-        mas=str.split('')
+       let str=String(i);
+        let mas=str.split('')
         let b=0;
             for (a=0;a<=(mas.length-1);a++){
                 if(mas[a].includes(0)===true){
