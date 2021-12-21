@@ -7,8 +7,17 @@
  * 
 */
 
-function factorial(n) {
-    // Напишите код здесь
+function factorial(n){
+  if(n===0 || n===1){
+    return 1
+  }  
+  else{
+    res =1
+    for (i=1;i<=n;i++){
+        res=res*i;
+      }
+  }
+  return res;    
 }
 
 // Протестируйте решение, вызывая функцию с разными аргументами:
