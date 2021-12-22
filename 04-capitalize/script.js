@@ -7,7 +7,7 @@
 */
 
 function capitalize(str) {
-    mas=str.split(' ')
+    /*mas=str.split(' ')
         for(i=0;i<=mas.length-1;i++){
             word=mas[i].split('');
              
@@ -16,8 +16,14 @@ function capitalize(str) {
             mas[i]=word.join('');
              
         }
-         return result=mas.join(' ')
+         return result=mas.join(' ')*/
       
+ return str.split(' ').map((word) => {
+    word = word.trim();
+    if (word !== '') {
+        return word[0].toUpperCase() + word.slice(1);
+    }
+}).join(' ');
     }
 
 

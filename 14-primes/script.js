@@ -7,7 +7,7 @@
 */
 
 function primes(num) {
-    let mas=[]
+    const mas=[]
     for (i=2;i<=num;i++){
 
          if (i===2 || i===3){

@@ -10,7 +10,7 @@
 */
 
 function findVowels(str) {
-    let mas=['а', 'я', 'о', 'ё', 'у', 'ю', 'ы', 'и', 'э', 'е'];
+    const mas=['а', 'я', 'о', 'ё', 'у', 'ю', 'ы', 'и', 'э', 'е'];
     let sum=0;
 
     for (i=0;i<=(mas.length-1);i++){
