@@ -11,7 +11,6 @@
 */
 
 function fizzBuzz(num) {
-    let mas=[];
     for(i=1;i<=num;i++){
         if(i%3===0 && i%5===0){
             console.log('fizzbuzz');
